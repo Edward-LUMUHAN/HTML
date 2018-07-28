@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>卧龙</title>
+	<style type="text/css">
+	*{margin: 0;padding: 0}
+	    .layout{width:960px;
+	    	overflow: hidden;
+	    }
+	   .header,.imgnews,.footer,.layout{width:960px;
+	    						        margin: 0 auto;
+	    									  }
+	    .header{height: 94px;
+	    	    background: #fff url(../image/picture/wolong_02.jpg) no-repeat left top; ;
+	            }
+	        .header-r{height: 94px;
+	        	      background: url(../image/picture/wolong_08.jpg) no-repeat right;
+	        	     }
+	    .nav{height: 60px;background:#2c2c2c;}
+	       	.nav ul{width: 960px;
+	       			height: 60px;
+	       			background: #000;
+	       			overflow: hidden;
+	       			}    	        
+	    	
+			.nav ul li{width:119px;
+				       height:60px;
+				       float: left;
+				       border-right:1px #484848 solid;
+				       text-align: center;
+				       line-height: 60px;
+				   	   list-style: none;
+				   	  }
+			    .nav ul li a{text-decoration: none;
+			        		 color:#fff;
+			        		display: block;}
+			    .nav ul li a:hover{background: #f00;}
+			    .nav ul li.last{border-right: 0px #0f0 solid;}
+	    .banner{background: url(../image/picture/banner_02.jpg) no-repeat;
+	    		height:463px;
+	    	   }
+	    .news{height: 245px;
+	         background: #f00;
+	     	 }
+	    	.news-l{width: 480px;
+	    		height: 245px;
+	    		background: #00f;
+	    		float: left;
+	    			}
+	    	.news-l ul{height:150;}
+	    	.news-l ul li{list-style: none;}
+	    	.news-l ul li a{color:#fbfbfb;
+	    		float:left;}
+	    	.news-l
+	    	.news-c,.news-r{width:240px;
+	    					height:245px;
+	    					float:left;
+	    				   }
+	    	.news-c{background: #f1f1f1;}
+	    	.news-r{background: #fbfbfb url(../image/picture/wolong_10.jpg) no-repeat right bottom;}
+	    	.news-l ul li{list-style-position: inside;}
+	    .imgnews{background: #fff;height: 307px;width:1000px}
+	    .imgnews dl{width:210px;
+	    	        float: left;
+	    	        margin: 0 20px;
+	    	       }
+	    .imgnews h3{float: left;
+	    			background:#fff;
+	    		   width:980px;}
+	    .imgnews h3 span{float: right;}
+	    .list{height:330px;
+	     	  background:#e5e5e5;
+	     	}
+	    .list h4{padding-top:10px;}				       
+	    .list-l{height:330px;
+	    		width:440px;
+	    		background:#e5e5e5;
+	    		float: left;
+	    	 	margin-right: 10px}
+	    .list-l-l{height:200px;
+	    		  width:130px;
+	    		  float:left;}
+	    .list-l-l ul{height:200px;
+	    			 width:130px;
+	    			}
+	    .list-l-l ul li{width: 100px;
+	    				line-height:40px;
+	    				list-style:none;}
+	    .list-l-l ul li a,.list-l-c ul li a,.list-l-r ul li a{color: #5e5e5e;
+	    				  text-decoration: none;
+	    				 }
+	    .list-l-l ul li a:hover,.list-l-c ul li a:hover,.list-l-r ul li a:hover{color: #0f0;
+	    																	    text-decoration: none;}	
+	    .list-l-c{width:160px;
+	    			float:left;}
+	    .list-l-c ul{height:200px;
+	    			 width: 160px;
+	    			 }
+	    .list-l-c ul li{list-style: none;
+	    				line-height:40px;}
+	    .list-l-r{width:140px;
+	    	      float:right;
+	    	     }
+  		.list-l-r ul {width:140px;
+  					  height: 200px}
+  		.list-l-r ul li{width:140px;
+  						line-height: 40px;
+  						list-style: none}
+
+	    .list-c{height:330px;
+	    		width:150px;
+	    		background:#e5e5e5;
+	    		float:left;}
+	    .list-c-c{height:200px;
+	    		  float:left;}
+	    .list-c-c ul{height:200px;
+	    			 width:150px;
+	    			}
+	    .list-c-c ul li{list-style: none;
+	    				line-height: 40px}
+	    .list-c-c ul li a{color: #5e5e5e;
+	    				   text-decoration: none}
+	    .list-c-c ul li a:hover{color: #0f0;
+	                           }
+	    .list-r{background: #e5e5e5;
+	      		width:200px;
+	      		height:330px;
+	      		float:right;
+	      	    }
+	    .list-r-r{width: 190px;
+	    		  height:190px;
+	    		  float:left;
+	    		  padding-top:10px;}
+	    .footer{height:80px;
+	    		background:#fff;}
+	    .footer-l{width:360px;
+	    		  height:80px;
+	    		  float:left;
+	    		  line-height:65px;
+	    		 } 
+	    .footer-r{width:600px;
+	    		  float:right;
+	    		  text-align: right;
+	    		 line-height:65px;}
+	    .footer a{color: #8f8f8f;
+	    		  text-decoration: none;}
+	    .footer a:hover{color: #0f0;}		
+	
+	</style>
+
+</head>
+<body>
+	<div class="header">
+		<div class="header-r"></div>
+	</div>
+	<div class="nav">
+		<ul class="layout">
+			<li><a href="#">集团介绍</a></li>
+			<li><a href="#">产品中心</a></li>
+			<li><a href="#">卧龙市场</a></li>
+			<li><a href="#">技术研发</a></li>
+			<li><a href="#">国际合作</a></li>
+			<li><a href="#">投资关系</a></li>
+			<li><a href="#">新闻资讯</a></li>
+			<li class="last"><a href="#">人力资源</a></li>
+		</ul>
+	</div>
+	<div class="banner"></div>
+	<div class="news layout">
+		<div class="news-l">
+			<p>新闻资讯
+				<ul>
+					<li>
+						<a href="#">陈建成董事长出席ATB集团召开年度销售大会</a>
+						<span>201-7-30</span>
+					</li>
+					<li>
+						<a href="#">陈建成董事长出席ATB集团召开年度销售大会</a>
+						<span>201-7-30</span>
+					</li>
+					<li>
+						<a href="#">陈建成董事长出席ATB集团召开年度销售大会</a>
+						<span>201-7-30</span>
+					</li>
+					<li>
+						<a href="#">陈建成董事长出席ATB集团召开年度销售大会</a>
+						<span>201-7-30</span>
+					</li>
+				</ul>
+			</p>
+		</div>
+		<div class="news-c">
+			<p>卧龙介绍</p>
+		</div>
+		<div class="news-r">
+			<p>人才招聘</p>
+		</div>
+	</div>
+	<div class="imgnews">
+		<h3 class="layout">卧龙市场<span><img src="../image/picture/wolong_05.jpg"></span></h3>
+		<dl>
+			<dt><img src="../image/picture/wolong_13.jpg"/></dt>
+			<dd>交通轨道：由于主要采用电气牵引，而且轮轨摩擦阻力较小，与公共....</dd>
+		</dl>
+		<dl>
+			<dt><img src="../image/picture/wolong_13.jpg"/></dt>
+			<dd>节能环保：由于不断上涨的能源消耗和我们的专业知识，维护可持续...</dd>
+		</dl>
+		<dl>
+			<dt><img src="../image/picture/wolong_13.jpg"/></dt>
+			<dd>航空与船舰：如果你在公海行驶，你需要确保你的船只的电力系统。。。。</dd>
+		</dl>
+		<dl>
+			<dt><img src="../image/picture/wolong_13.jpg"/></dt>
+			<dd>石油：天然气及采矿：在市场中的安全性，可靠性，效率和最短的停机。。。</dd>
+		</dl>
+	</div>
+	<div class="list">
+		<div class="layout">
+		<div class="list-l">
+			<h4>产品中心</h4><hr/>
+			<div class="list-l-l">
+				<ul>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">汽车电机</a> 
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">日用电机</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">特种电机</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">大功率电机</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">电工设备</a>
+					</li>
+				</ul>
+			</div>
+			<div class="list-l-c">
+				<ul>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">工业驱动和自动化</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">高压变频和系统集成</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">混泥土搅拌</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">电动车辆</a>
+					</li>
+				</ul>
+			</div>
+			<div class="list-l-r">
+				<ul>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">电池电源</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">高压变</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">混泥土搅拌</a>
+					</li>
+					<li>
+						<img src="../image/picture/wolong_14.jpg">
+						<a href="#">电动车辆</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+		<div class="list-c">
+			<h4>技术研发</h4><hr/>
+			<div class="list-c-c">
+				<ul>
+					<li>
+						<a href="#">
+						   <img src="../image/picture/wolong_14.jpg"/>科技力量
+						 </a>
+					</li>
+					<li>
+						<a href="#">
+						   <img src="../image/picture/wolong_14.jpg"/>科技力量
+						 </a>
+					</li>
+					<li>
+						<a href="#">
+						   <img src="../image/picture/wolong_14.jpg"/>科技力量
+						 </a>
+					</li>
+					<li>
+						<a href="#">
+						   <img src="../image/picture/wolong_14.jpg"/>科技力量
+						 </a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="list-r">
+			<h4>营销网络</h4><hr/>
+			<div class="list-r-r"><img src="../image/picture/wolong_03.jpg"> </div>
+		</div>
+	</div>
+	</div>
+	<div class="footer">
+		<p class="footer-l"><a href="#">网站地图|</a>
+			<a href="#">联系我们|</a>
+			<a href="#">关注卧龙|</a>
+			<a href="#">采购系统入口</a></p>
+		<p class="footer-r">COPYRIGHT &copy;2015卧龙控股集团版权所有浙ICP</p>
+	</div>
+</body>
+</html>

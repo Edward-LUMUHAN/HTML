@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>练习表单</title>
+</head>
+<body>
+	<p>个人信息&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp*为必填项</p>
+	<hr/>
+	<p>*姓名&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="xingming" placeholder="请输入姓nbsp;名"></p>
+	<p>*性别& &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="sex">男&nbsp;&nbsp;<input type="radio" name="sex">女</p>
+	<p>
+		*出生日期&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>1990</option>
+			<option>1991</option>
+			<option>1992</option>
+		</select>年
+		<select>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+		</select>月
+	</p>
+	<p>
+		*参加工作的年份&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 	<select>
+	 		<option>2009年2月</option>
+	 	</select>
+	</p>
+	<p>
+		*户口所在地&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 	<select>
+	 		<option>北京</option>
+	 		<option>上海</option>
+	 	</select>
+	</p>
+	<p>
+		*现居住的城市&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	 	<select>
+	 		<option>北京</option>
+	 		<option>上海</option>
+	 	</select>
+	</p>
+	<p>
+		*联系方式&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="number"/>
+	</p>
+	<p>
+		*电子邮箱&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="text" name="number"/>
+	</p>
+	<p>
+		*婚姻状况&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="marry" checked/>未婚&nbsp;&nbsp;
+		<input type="radio" name="marry"/>已婚&nbsp;&nbsp;
+		<input type="radio" name="marry"/>离异&nbsp;&nbsp;
+	</p>
+	<p>
+		*国籍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>中国大陆</option>
+			<option>香港</option>
+		</select>
+	</p>
+	<p>
+		*证件&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>身份证</option>
+			<option>学生证</option>
+		</select>
+		<input type="text" name="">
+	</p>
+	<p>
+		*海外工作/学习经验&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="experience">有
+		<input type="radio" name="experience">无
+	</p>
+	<p>
+		*政治面貌&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="policy">中共党员（含预备党员）
+		<input type="radio" name="policy">团员
+		<input type="radio" name="policy">群众
+		<input type="radio" name="policy">民主党派
+	</p><br/>
+	<p>求职意向&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp*为必填</p>
+	<hr/>
+	<p>
+		*期望工作性质&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="checkbox" name="hope">全职
+		<input type="checkbox" name="hope">兼职
+		<input type="checkbox" name="hope">实习
+	</p>
+	<p>
+		*期望工作地点&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>选择/修改</option>
+		</select>
+	</p>
+	<p>
+		*期望从事职业&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>选择/修改</option>
+		</select>
+	</p>
+	<p>
+		*期望从事行业&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>选择/修改</option>
+		</select>
+	</p>
+	<p>
+		*期望月薪&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>请选择</option>
+		</select>/月
+	</p>
+	<p>
+		*工作状态&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>我目前处于离职状态，可立即上岗</option>
+		</select>
+		<input type="checkbox" name="" checked>此求职意向先是在我的简历中
+	</p><br/>
+	<p>自我评价&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*为必填项
+	</p>
+	<hr/>
+	<p>
+		请简述你的工作业绩，拥有的技能及特殊的专长，以更好地向企业展现自己。
+	</p>
+	<p>*标题&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<select>
+			<option>自我评价</option>
+		</select>
+	</p>
+	<table>
+		<tr>
+			<td valign="top">
+				*内容&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			</td>
+			<td>
+				<textarea cols="50" rows="5"></textarea>
+			</td>
+		</tr>
+	</table>
+	<p>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="submit" name="sumit" value="保存并下一步">
+	</p>
+		
+			
+
+</body>
+</html>

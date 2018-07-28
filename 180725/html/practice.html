@@ -1,0 +1,70 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>表单</title>
+	<./link type="text/css" rel="stylesheet" href="../css/practice.css"/>
+	<style type="text/css">
+		@import url(../css/practice.css)
+	</style>
+</head>
+<body>
+  <form action="" name="biaodan" method="post" >
+  	<table border="1" width="500" cellspacing="0" align="center" cellpadding="10" >
+  		<tr>
+  			<td align="right" >姓名</td>
+  			<td colspan="3"><input type="text" placeholder="请输入姓名" name="xingming" value=""/></td>
+  		</tr>
+  		<tr>
+  			<td align="right">密码</td>
+  			<td colspan="3"><input type="password" name="mima" /></td>
+  		</tr>
+  		<tr>
+  			<td align="right"><input type="submit" name="submit" value="提交"/></td>
+  			<td align="right" colspan="3"><input type="reset" name="reset" value="重置"/ ></td>
+  		</tr>
+  		<tr>
+  			<td>性别</td>
+  			<td>男<input type="radio" name="sex" checked></td>
+  			<td colspan="2">女<input type="radio" name="sex"></td>
+  		</tr>
+  		<tr>
+  			<td>爱好</td>
+  			<td>篮球<input type="checkbox" name="hobbies" disabled></td>
+  			<td>足球<input type="checkbox" name="hobbies"></td>
+  			<td>乒乓球<input type="checkbox" name="hobbies"></td>
+  		</tr>
+  		<tr>
+  			<td>出生年月</td>>
+  			<td><select>
+  				  <option>1996</option>
+  				  <option>1997</option>
+  				  <option>1998</option>
+  				</select>年
+  		    </td>
+  			<td><select>
+  				  <option>1</option>
+  				  <option>2</option>
+  				  <option>3</option>
+  				</select>月
+  			</td>
+            <td><select>
+  				  <option>1</option>
+  				  <option>2</option>
+  				  <option>3</option>
+  				</select>日
+  			</td>
+        </tr>
+        <tr>
+        	<td valign="top">个人简介</td>
+        	<td colspan="3"><textarea rows="6" cols="60" ></textarea></td>
+        </tr>
+  	</table>
+  </form>
+  <hr/>
+  <div>千峰教育</div>
+  <p style="width:200px;height:100px;background-color: #de00ff;">千峰互联科技有限公司</p>
+  <div>层叠样式表</div>
+</body>
+</html>
